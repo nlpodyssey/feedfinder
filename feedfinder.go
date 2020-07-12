@@ -12,7 +12,7 @@ import (
 )
 
 // Version is the version of feedfinder.
-const Version = "0.0.0"
+const Version = "0.1.0"
 
 // FindFeeds finds a list of RSS and Atom feeds from a web page.
 func FindFeeds(url string) ([]string, error) {
