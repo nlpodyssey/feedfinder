@@ -55,20 +55,20 @@ func resolveLinksReference(rawBaseURL string, links []string) ([]string, error) 
 	}
 	resolvedLinks := make([]string, len(links))
 	for i, link := range links {
-		url, err := url.Parse(link)
+		parsedURL, err := url.Parse(link)
 		if err != nil {
 			return nil, err
 		}
-		resolvedLinks[i] = baseURL.ResolveReference(url).String()
+		resolvedLinks[i] = baseURL.ResolveReference(parsedURL).String()
 	}
 	return resolvedLinks, nil
 }
 
 func filterActualFeeds(urls []string) ([]string, error) {
 	result := make([]string, 0)
-	for _, url := range urls {
-		if isActualFeed(url) {
-			result = append(result, url)
+	for _, u := range urls {
+		if isActualFeed(u) {
+			result = append(result, u)
 		}
 	}
 	return result, nil
