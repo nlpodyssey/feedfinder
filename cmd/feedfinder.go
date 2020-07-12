@@ -29,5 +29,6 @@ func main() {
 }
 
 func printUsageAndExit() {
-	log.Fatalf("Usage: %s <URL>", os.Args[0])
+	log.Fatalf("feedfinder v%s\nUsage: %s <URL>",
+		feedfinder.Version, os.Args[0])
 }
