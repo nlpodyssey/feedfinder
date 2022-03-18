@@ -1,8 +1,8 @@
-// Copyright (c) 2020, NLP Odyssey Authors. All rights reserved.
+// Copyright (c) 2020, SpecializedGeneralist Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-module github.com/nlpodyssey/feedfinder
+module github.com/SpecializedGeneralist/feedfinder
 
 go 1.18
 

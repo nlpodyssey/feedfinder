@@ -10,7 +10,7 @@ package main
 
 import (
     "fmt"
-    "github.com/nlpodyssey/feedfinder"
+    "github.com/SpecializedGeneralist/feedfinder"
     "log"
 )
 
@@ -36,4 +36,4 @@ feedfinder https://blog.golang.org
 ## License
 
 Feedfinder is licensed under the
-[BSD 2-Clause "Simplified" License](https://github.com/nlpodyssey/feedfinder/blob/master/LICENSE).
+[BSD 2-Clause "Simplified" License](https://github.com/SpecializedGeneralist/feedfinder/blob/master/LICENSE).

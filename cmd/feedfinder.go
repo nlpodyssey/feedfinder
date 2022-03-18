@@ -1,4 +1,4 @@
-// Copyright (c) 2020, NLP Odyssey Authors. All rights reserved.
+// Copyright (c) 2020, SpecializedGeneralist Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
@@ -6,7 +6,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/nlpodyssey/feedfinder"
+	"github.com/SpecializedGeneralist/feedfinder"
 	"log"
 	"os"
 )
