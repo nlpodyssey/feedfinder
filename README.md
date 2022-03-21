@@ -4,7 +4,7 @@ A tiny Go package and executable to find RSS and Atom feed URLs
 from the content of a Web page.
 
 ## Package usage example
- 
+
 ```go
 package main
 
