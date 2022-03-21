@@ -15,7 +15,7 @@ import (
 )
 
 func main() {
-    feeds, err := feedfinder.FindFeeds("https://blog.golang.org")
+    feeds, err := feedfinder.FindFeeds("https://go.dev", 2)
     
     if err != nil {
         log.Fatal(err)
@@ -30,7 +30,7 @@ func main() {
 ### Command line example 
 
 ```bash
-feedfinder https://blog.golang.org
+feedfinder -url https://go.dev -depth 2
 ```
 
 ## License

@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Changed
+- Don't limit the search to the content from the given URL only, but follow
+  links recursively, up to a given maximum level.
 - The project repository has been moved from [NLPOdyssey](https://github.com/nlpodyssey/)
   to [SpecializedGeneralist](https://github.com/SpecializedGeneralist/feedfinder).
 - Use Go 1.18.
